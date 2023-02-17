@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Flask inside Docker!!"
+    return "Welcome to TenUp homepage !"
 
 
 if __name__ == "__main__":
