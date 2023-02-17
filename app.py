@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Welcome to TenUp homepage !"
+    return "Welcome to TenUp homepage - version 1.1 !"
 
 
 if __name__ == "__main__":
